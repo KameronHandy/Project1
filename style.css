@@ -1,0 +1,25 @@
+.background{
+    background-color: bisque;
+}
+
+.pictureaverage{
+    height: 300px;
+    width: 400px;
+}
+
+.centeringimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#adjusting-sm-picture{
+    height: 300px;
+    width: 300px;
+}
+
+.user-adjustment{
+    display: flex;
+    justify-
+
+}
