@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
-  <title>R C you later</title>
+  <title>RC you later</title>
   
 </head>
 
 <body>
 
   <header><!-- A grey horizontal navbar that becomes vertical on small screens -->
-    <nav class="navbar navbar-expand-sm bg-light">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary" data-bs-theme="dark">
     
       <div class="container-fluid">
         <!-- Links -->
@@ -41,41 +41,95 @@
 
 
   </header>
+  <!--title-->
+  <h1 class="centeringimage"> RC You Later</h1>
+  <!--end title-->
+  <section>
 
-  <h1 class="centeringimage"> R C You Later</h1>
+      <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-  <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+      <!--ideal base image size for pictureaverage function is 1200 x 1200 pixels-->
+      <!--use -->
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active pictureaverage1">
+          <img src="./Images/Size Adjusted Pictures/Camaro images/16 camaro/Enhanced 16 Camaro picture/controller and camaro.jpg" alt="Camaro" class="d-block w-100">
+        </div>
+        <div class="carousel-item pictureaverage1">
+          <img src="./Images/Size Adjusted Pictures/Charger images/fast and furios charger/Dodge Enhanced pictures/Dom Charger and controller.jpg" alt="Challenger" class="d-block w-100">
+        </div>
+        <div class="carousel-item pictureaverage1">
+          <img src="./Images/Size Adjusted Pictures/Ford images/elanor/Enhanced Elanor Pictures/eleanor top side view front.jpg" alt="Eleanor" class="d-block w-100">
+        </div>
+      </div>
 
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active pictureaverage">
-      <img src="./Images/Camaro images/16 camaro/controller and camaro.jpg" alt="Camaro" class="d-block w-100">
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
-    <div class="carousel-item pictureaverage">
-      <img src="./Images/Charger images/Dodge Challenger/challenger.jpg" alt="Challenger" class="d-block w-100">
-    </div>
-    <div class="carousel-item pictureaverage" id="adjusting-sm-picture">
-      <img src="./Images/Ford images/elanor/eleanor top side view front.jpg" alt="Eleanor" class="d-block w-100">
-    </div>
-  </div>
 
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+    <!--/end carousel-->
+  </section>
+  <!--Cards-->
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Camaro</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Select</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Dodge</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Select</a>
+          </div>
+        </div>
+      </div>
+
+      <div class ="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Ford</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Select</a>
+          </div>
+        </div>
+      </div>
+
+      <div class ="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Competition
+            </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Select</a>
+          </div>
+      </div>
+    </div>
+  </main>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

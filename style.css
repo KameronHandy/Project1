@@ -2,9 +2,14 @@
     background-color: bisque;
 }
 
+.pictureaverage1{
+    height: 500px;
+    width: 500px;
+}
+
 .pictureaverage{
-    height: 300px;
-    width: 400px;
+    height: 500px;
+    width: 600px;
 }
 
 .centeringimage{
@@ -15,11 +20,22 @@
 
 #adjusting-sm-picture{
     height: 300px;
-    width: 300px;
+    width: 200px;
 }
 
 .user-adjustment{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carousel-inner > .item >{
+    width: 100%;
+    height: auto;
+    margin: auto;
 
 }
