@@ -12,7 +12,7 @@
     width: 600px;
 }
 
-.centeringimage{
+.centering-image{
     display: flex;
     justify-content: center;
     align-items: center;
